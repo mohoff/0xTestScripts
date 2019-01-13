@@ -5,14 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./index.js"
+    "start": "node ./index.js",
+    "watch": "node ./watch.js",
+    "hash": "node ./hash.js",
+    "all": "node ./all.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "0x.js": "^0.37.2",
+    "0x.js": "^0.38.4",
     "@0xproject/subproviders": "^0.10.2",
     "@0xproject/web3-wrapper": "^0.7.0",
+    "ethereumjs-blockstream": "^5.0.0",
+    "ethereumjs-util": "^5.2.0",
     "request": "^2.87.0",
     "request-promise": "^4.2.2",
     "web3": "^1.0.0-beta.34",
